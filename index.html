@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="wordle-helper.js"></script>
+        <title>Wordle Helper | Joseph Cordara</title>
+</head>
+<body>
+    <header id="site-header">
+        <nav>
+            <a id="home" href="../../index.html">Joseph Cordara</a>
+            <div id="nav-tabs">
+                <a class="nav-item" href="../../blog/index.html">Blog</a>
+                <a class="nav-item" href="../index.html">Apps</a>
+                <a class="nav-item" href="../../games/index.html">Games</a>
+            </div>
+        </nav>
+    </header>
+    <div id="page">
+        <input type="text" id="mobile-keyboard"></input>
+        <h1>Wordle Helper</h1>
+        <div id="board">
+            <div class="word">
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+            </div>
+            <div class="word">
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+            </div>
+            <div class="word">
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+            </div>
+            <div class="word">
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+            </div>
+            <div class="word">
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+            </div>
+            <div class="word">
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+                <div class="tile" data-state="absent"></div>
+            </div>
+        </div>
+        <div id="results">
+            <h1>Possible answers:</h1>
+            <button type="button" id="btn-results">All Words</button>
+            <ul id="valid-words">
+            </ul>
+        </div>
+    </div> <!-- Page -->
+</body>
+</html>

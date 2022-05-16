@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+
+html {
+    --col-empty:   rgb(243, 243, 243);
+    --col-absent:  rgb(120, 124, 126);
+    --col-present: rgb(201, 180, 88);
+    --col-correct: rgb(106, 170, 100);
+    
+    --col-border:  var(--col-absent);
+    --col-border-active: rgb(66, 122, 245);
+    
+    --tile-size: 17.8vw;
+}
+
+body {
+    margin: 0;
+}
+
+#site-header {
+    --header-height: 42px;
+    width: 100vw;
+    height: var(--header-height);
+    background-color: #00ffff;
+    box-shadow: 0 0 15px #00000036;
+    /* Dont allow shadows to be cast on the header */
+    position: relative;
+    z-index: 2;
+}
+
+#site-header nav {
+    display: block;
+    height: var(--header-height);
+    width: 100vw;
+}
+
+#site-header #home {
+    display: inline-block;
+    height: var(--header-height);
+    width: 250px;
+    line-height: var(--header-height);
+
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+#site-header #nav-tabs {
+    height: var(--header

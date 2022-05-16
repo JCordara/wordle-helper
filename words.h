@@ -25,7 +25,7 @@ typedef struct WORD {
 } Word;
 
 // List of all possible wordle answers
-static StringArray remaining_words = {
+static StringArray all_words = {
  "aback", "abase", "abate", "abbey", "abbot", "abhor", "abide", "abled",
  "abode", "abort", "about", "above", "abuse", "abyss", "acorn", "acrid",
  "actor", "acute", "adage", "adapt", "adept", "admin", "admit", "adobe",
@@ -317,6 +317,8 @@ static StringArray remaining_words = {
  "wrung", "wryly", "yacht", "yearn", "yeast", "yield", "young", "youth", 
  "zebra", "zesty", "zonal", "lower"
 };
+
+static StringArray remaining_words = all_words;
 
 // List of all common words (higher score)
 static StringArray common_words = {

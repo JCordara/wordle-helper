@@ -15,4 +15,4 @@ For command line interface:
 
 Web interface demo (in development):
 
-![wordle-helper-demo](wordle-helper-demo.gif)
+![wordle-helper-demo](assets/wordle-helper-demo.gif)
